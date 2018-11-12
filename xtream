@@ -362,7 +362,7 @@ echo -e "${jeshile} +------------------------------------------+ \e[0m"
 echo " "
 #mkdir /var/www/html
 #cd /var/www/html #DESTINACIONI KRYESOR ADMIN - TEMPLATES ETC
-cd /var/www/html && wget https://dl-web.dropbox.com/get/Xtream_Codes_v1.0.60_Nulled.zip?_download_id=49200844399427686650990297261378274923152392226536693048954889562&_notify_domain=www.dropbox.com&_subject_uid=583189347&dl=1&w=AACmTAN2lljqqdCxHdEQ7Afml2haPDZUEaC5-38YXAPr8A && unzip Xtream_Codes_v1.0.60_Nulled.zip && cp /var/www/html/downloads/iptv_panel_pro.zip /tmp && chmod a+x /tmp/iptv_panel_pro.zip && cp /var/www/html/downloads/install_iptv_pro.php /root/ && cd /root && chmod a+x /root/install_iptv_pro.php && php install_iptv_pro.php
+cd /var/www/html && wget -q https://dl-web.dropbox.com/get/Xtream_Codes_v1.0.60_Nulled.zip?_download_id=6432622750558762610879231800889316002974842121587991575316059271&_notify_domain=www.dropbox.com&_subject_uid=583189347&dl=1&w=AACmTAN2lljqqdCxHdEQ7Afml2haPDZUEaC5-38YXAPr8A && cp /var/www/html/downloads/iptv_panel_pro.zip /tmp && chmod a+x /tmp/iptv_panel_pro.zip && cp /var/www/html/downloads/install_iptv_pro.php /root/ && cd /root && chmod a+x /root/install_iptv_pro.php && php install_iptv_pro.php
 chmod 775 /var/www/html/Xtream_Codes_v1.0.60_Nulled.zip
 rm /var/www/html/Xtream_Codes_v1.0.60_Nulled.zip
 cp /var/www/html/downloads/iptv_panel_pro.zip /tmp
